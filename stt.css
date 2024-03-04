@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+
+.heading h1 {
+    color: rgb(216, 91, 1);
+    font-size: 55px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 65px auto;
+}
+
+.hero-content {
+    flex: 1;
+    width: 600px;
+    margin: 0px 25px;
+    animation: fadeInUp 1s ease;
+}
+
+.hero_img {
+    flex: 1;
+    width: 600px;
+    margin: auto;
+    animation: fadeInRight 1s ease;
+}
+
+.img {
+    width: 75%;
+    height: auto;
+    border-radius: 150px;
+}
+
+.hero-content h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.hero-content p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.us{
+    text-align: center;
+    color: #fff;
+    margin-top: 32px;
+}
+.contact{
+    background-image: url(img/Background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-content button {
+    display: inline block;
+    background-color: green;
+    color: rgb(240, 240, 240);
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+body{
+    background-color: antiquewhite;
+}
+.hero-content button:hover {
+    background-color: aquamarine;
+    transform: scale(1.1);
+
+
+}
+
+@media screen and(max-width: 786px) {
+    .heading h1 {
+        font-size: 45px;
+        margin-top: 30px;
+    }
+
+    .hero {
+        margin: 0px;
+
+    }
+
+    .container {
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+        padding: 0px 40px;
+    }
+
+    .hero-content {
+        width: 100%;
+        margin: 35px 0px;
+    }
+
+    .hero-content h2 {
+        font-size: 30px
+    }
+    .hero-content p{
+font-size: 18px;
+margin: 20px;
+    }    
+.hero-content button{
+font-size: 16px;
+padding: 8px 16px;
+}
+.hero_img{
+width: 100px;
+
+}
+
+ }
+ .contact { 
+
+    background-color: #cfa20bdc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+.contact-box {
+
+    width: 500px;
+    background-color: #110d0d;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+form {
+
+
+    margin: 35px;
+}
+
+.input-11 {
+
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+
+.textarea-11 {
+    height: 80px;
+    padding-top: 10px;
+}
+
+.btn-11 {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #474747;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+.us{
+align-items: center;
+justify-content: center;
+
+}
+
